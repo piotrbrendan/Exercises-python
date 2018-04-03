@@ -1,0 +1,19 @@
+Julia ma tabliczkê czekolady, która zawiera n kolejnych kwadracików, które maj¹ napisane na sobie liczby ca³kowite wiêksze od zera. 
+Julia chce podzieliæ siê ni¹ z Jankiem z okazji jego urodzin, które przypadaj¹ w miesi¹cu m i dniu d. 
+Julia chce daæ Jankowi taki kawa³ek (wycinek) czekolady, ¿e m kolejnych kwadracików sumuje siê do liczby d.
+Maj¹c dane m, d i sekwencjê liczb ca³kowitych wiêkszych od zera, na ile sposobów mo¿na po³amaæ czekoladê, aby uzyskaæ opisany wy¿ej wycinek?
+
+Przyk³adowo, niech m=2, d=3, a czekolada sk³ada siê z 5 kwadracików o liczbach [1,2,1,3,2]. Chcemy znaleŸæ takie dwa (bo m=2) kwadraciki pod rz¹d, których suma da nam d=3. Jest to pierwszy i drugi kwadracik lub drugi i trzeci.
+Zadaniem jest napisanie programu, który przyjmie na standardowe wejœcie n, m, d i sekwencjê liczb na czekoladzie, a wypisze na standardowe wyjœcie liczbê mo¿liwych wycinków czekolady.
+Format wejœciowy
+Pierwsza linia zawiera liczbê ca³kowit¹ n (liczbê kwadracików w czekoladzie).
+Druga linia zawiera n oddzielonych spacj¹ liczb ca³kowitych (liczby napisane na kwadracikach).
+Trzecia linia zawiera oddzielone spacj¹ dwie liczby: d (najpierw) i m (póŸniej).
+
+Przyk³adowe wejœcie 1
+5
+1 2 1 3 2
+3 2
+
+Przyk³adowe wyjœcie 1
+2
